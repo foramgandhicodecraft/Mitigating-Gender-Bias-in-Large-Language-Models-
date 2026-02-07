@@ -1,4 +1,3 @@
-# Mitigating-Gender-Bias-in-Large-Language-Models-
 # Mitigating Gender Bias in LLMs through Prompt-Level Fairness Intervention
 
 A lightweight, model-agnostic framework that detects bias-prone prompts and injects context-aware fairness guidelines - **no retraining or parameter modification required.**
