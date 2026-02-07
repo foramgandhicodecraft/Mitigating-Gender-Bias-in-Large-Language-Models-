@@ -6,7 +6,7 @@ A lightweight, model-agnostic framework that detects bias-prone prompts and inje
 
 ## Overview
 
-LLMs inherit gender stereotypes from training data. Instead of expensive retraining, this framework intervenes at the **prompt level** — classifying input prompts, generating targeted fairness constraints, and appending them before generation.
+LLMs inherit gender stereotypes from training data. Instead of expensive retraining, this framework intervenes at the **prompt level** - classifying input prompts, generating targeted fairness constraints, and appending them before generation.
 
 **Pipeline:**  
 Input Prompt → Preprocessing → Prompt Classification (Question / Creative / Other) → Fairness Guideline Generation → Fair Prompt Construction → Bias Evaluation
